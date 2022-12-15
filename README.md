@@ -1,1 +1,3 @@
 # LearningJavaScript
+
+Started learning JavaScript.
