@@ -23,6 +23,17 @@ let arr2 = [45, 23, 21, 0, 3, 5]
 
 // console.log(b)
 
-console.log(arr.filter((a) => {
-    return a>=3
-}))
+// console.log(arr.filter((a) => {
+//     return a>=3
+// }))
+
+// Array Reduce method
+
+let arr3 = [1, 2, 3, 5, 2, 1]
+
+const reduce_func = (h1, h2) => {
+    return h1 + h2
+}
+
+let newarr3 = arr3.reduce(reduce_func)
+console.log(newarr3)
